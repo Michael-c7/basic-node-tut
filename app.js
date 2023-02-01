@@ -23,18 +23,22 @@
 // // func(names.john)
 // // func(names.billy)
 
-
 // const data = require("./alt-export-flavor")
 // // console.log(data)
 
 // require("./mind-grenade")
 
+// importing & using 3rd party packages example
+// const _ = require("lodash")
+// const items = [1,2,3,4,[[5],6,[2,37]]]
+// const newItems = _.flatMapDeep(items)
+// console.log(newItems)
+// console.log("hello world?")
 
 
 
 
-const _ = require("lodash")
-const items = [1,2,3,4,[[5],6,[2,37]]]
-const newItems = _.flatMapDeep(items)
-console.log(newItems)
-console.log("hello world?")
+
+
+
+
